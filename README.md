@@ -13,7 +13,7 @@ user name and password-
 
 
 Documentation-     
-Code Guide Lines-
+Code Guide Lines-  
  variables names - using google name convention - for instance non public prefix -"m"' for static prefix "s".
  (not including constants)
  class names - all the model classes we used suffix "M", to distinguish from the rest of the application.
