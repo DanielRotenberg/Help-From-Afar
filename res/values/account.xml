@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_username_hint">Please Enter Your Name</string>
+    <string name="login_password_hint">Please Enter Your Password</string>
+    <string name="login_verify_password_hint">Please Verify Your Password</string>
+    <string name="login_mail_hint">Please Enter Valid Email</string>
+    <string name="login_create_account_button">Create Account</string>
+    <string name="login_login_button">Login</string>
+    <string name="lock_description">Lock Image</string>
+    <string name="login_fragment_toast_verify_account_first">Please verify your mail first</string>
+    <string name="create_account_successfully_toast">Welcome Abroad</string>
+    <string name="login_reset_password_button">Reset Password</string>
+    <string name="fragment_dialog_reset_email_hint">Please Enter Your Email</string>
+    <string name="fragment_dialog_reset_password_title">Reset Your Password</string>
+    <string name="fragment_dialog_reset_password_positive_button">Reset</string>
+    <string name="fragment_dialog_reset_password_negative_button">Cancel</string>
+    <string name="fragment_dialog_reset_password_progress_dialog_message">Sending Message To Your Email Address For Reset...</string>
+    <string name="toolbar_contact_us">Contact Us</string>
+    <string name="toolbar_log_out">Log Out</string>
+    <string name="edit_profile_title">Edit Your Profile</string>
+    <string name="edit_profile_button_confirm">Done</string>
+    <string name="edit_profile_age_hint">Enter Your Age</string>
+    <string name="edit_profile_gender_hint">Choose Your Gender</string>
+    <string name="edit_profile_country">Choose Your Country</string>
+    <string name="edit_profile_male">Male</string>
+    <string name="edit_profile_female">Female</string>
+    <string name="profile_edit_button">Edit Your Profile</string>
+    <string name="profile_main_button">Main</string>
+
+
+</resources>

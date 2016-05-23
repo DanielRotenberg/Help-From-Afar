@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="questions_array">
+        <item>How will you feel about your problem and what will you think about it tomorrow?
+            In five years?  In twenty years?  In forty years?</item>
+        <item>What sort of people would tackle a problem like yours easily?</item>
+        <item>If this problem came up with someone dear to you, what would you advise them?</item>
+        <item>When you are concentrating on your problem, are you distinguishing between what is
+            important and what is secondary? Are you really focused on the main point?</item>
+        <item>In order to resolve the problem at hand – you need strength.  What gives you strength?</item>
+        <item>Is your interpretation of the problem objective and accurate?</item>
+        <item>Where do your motives come from?</item>
+        <item>If someone you admire were coping with this problem, how would they go about it?</item>
+        <item>What advantages (even small ones) could this problem have?</item>
+        <item>Could it be that you ascribe more importance to the matter than it really deserves?</item>
+
+    </string-array>
+
+    <string-array name="country">
+        <item>United States</item>
+        <item>Israel</item>
+    </string-array>
+
+
+    <string-array name="questions_explanations_array">
+        <item>"Sorry its really clear - no need for explanation"</item>
+        <item>When you understand what types of people would tackle this sort of problem easily, try to imitate them,
+            do it as an \“act\” – only outwardly.  Try to keep up the \“act\” over several hours.
+            What does it feel like?  What did you learn from this experience?</item>
+        <item>Sometimes it is easier for us to advise others, but harder to advise ourselves. Try to
+            imagine that you have friend who is distressed over the same sort of thing that you are now struggling with.
+            Try to think what sort of advice you would give your friend and then try to act on it yourself.</item>
+        <item>Our lives are full of details.  Some of them come under the heading of \“important\” and some under that of \“secondary\”.
+            Like most people you also have limited amounts of energy, and therefore you must understand what is most important,
+            concentrate on this and give it all of your attention.  What is \“important\” in your problem?</item>
+        <item>Think of times when you felt strong, of things that you did that sent positive energy flowing through you.
+            How and when can you connect to a \“generator\” like that?
+            If that specific \“generator\” is no longer relevant, you must come up with a plan of action to build a new one.
+            Think, what could you do to send new energy to your system right now?</item>
+        <item>The problem itself is one matter, and the interpretation we give it is another.  Unfortunately,
+            we sometimes confuse the objective problem with the subjective feelings we feel about it and create something hybrid.
+            For instance:  Being fired from your job is a genuine and serious problem and can lead to economic hardship.
+            But it isn\’t proof of your lack of ability, lack of intelligence or lack of success in life.
+            Even if your boss acted cruelly when firing you, and insulted you terribly – you still have to assume that
+            you simply didn\’t meet the requirements of the job or the mentality of the workplace.
+            There is no reason to think that being fired from this job is proof that you are a \“failure\” or a \“loser\”.
+            We need to separate the objective occurrence:  \“I was fired\” and the damage to our self-esteem: \“I\’m not successful.\”
+            Think honestly – could you find a cleaner pair of \“glasses,\” less emotional ones, through which you could view the problem?
+            Where could you find an \“optometrist\’s shop\” (a good book or advisor) in which to exchange your old glasses for newer and more efficient ones?
+        </item>
+        <item>Are most of your motives coming from good places such as: a desire to succeed, a desire to make a living,
+            a desire to realize your potential, to improve, etc, or are they coming from negative places such as: a desire to get even,
+            greed, etc.?
+            It would be good if you can go deeper into your own motives and make sure you like them.
+            This sort of self-clarification can surprise you and change your entire perspective!
+        </item>
+        <item>Think of a person you admire very much, and try to imagine how they would look at an issue like that which you face now.
+            What is the first thing they would do?  How would they view the problem?  What would they do to help themselves?
+            What could you learn from them if you were to discuss the problem with them?
+            Try to imagine having this discussion and see what they suggest.
+        </item>
+        <item>There\’s no good without bad and there\’s no bad without good.
+            I\’m almost positive you can find plusses or opportunities in your problem as well.
+         (Remember, even being wiser is a great advantage; often, troubles make us wiser and richer in life experience.)
+        </item>
+        <item>Perhaps there is a way to reduce the volume of space this subject is taking up inside of you?
+            Surely in the past you\’ve had difficult emotions and after some time had past you
+            realized you had exaggerated the situation.  Could this be one of those times?</item>
+    </string-array>
+</resources>
