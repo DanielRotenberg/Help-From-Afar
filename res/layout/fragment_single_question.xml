@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/single_question_scroll_view"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#3b44c1"
+            android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:id="@+id/question_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            tools:text="1/25"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/questionnaire_edit_text_border"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/question_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                tools:text="4.	When you are concentrating on your problem,
+          are you distinguishing between what is important and what is secondary?  Are you really focused on the main point?"/>
+
+            <ImageButton
+                android:id="@+id/question_explanation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/question_text"
+                android:layout_margin="4dp"
+                android:background="@drawable/question_mark_button"
+                android:contentDescription="@string/question_image_description"
+                android:src="@drawable/ic_question_explanation"/>
+        </RelativeLayout>
+
+
+        <EditText
+            android:id="@+id/question_answer"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/questionnaire_edit_text_border"
+            android:focusable="false"
+            android:gravity="top|left"
+            android:maxLines="30"
+            android:padding="8dp"
+            android:scrollbars="vertical"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:id="@+id/button_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/questionnaire_send_button"
+            android:text="@string/fragment_single_question_button_send"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/therapist_comment"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@drawable/questionnaire_edit_text_border"
+            android:focusable="false"
+            android:gravity="top|left"
+            android:maxLines="30"
+            android:padding="8dp"
+            android:scrollbars="vertical"
+            android:textColor="#ffffff"
+            tools:text="some answer from the therapist"/>
+
+
+    </LinearLayout>
+</ScrollView>

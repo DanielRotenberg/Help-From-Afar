@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#3b44c1"
+              android:orientation="vertical">
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_profile_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#ffffff">
+
+        <EditText
+            android:id="@+id/edit_profile_name"
+            style="@style/profileTextView"
+            android:layout_marginTop="20dp"
+            android:hint="@string/login_username_hint"
+            android:inputType="textCapWords"
+            android:textColor="#ffffff"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#ffffff">
+
+        <EditText
+            android:id="@+id/edit_profile_age"
+            style="@style/profileTextView"
+            android:hint="@string/edit_profile_age_hint"
+            android:inputType="number"
+            android:textColor="#ffffff"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/edit_profile_country"
+        style="@style/profileTextView"
+        android:text="@string/edit_profile_country"
+        android:textColor="#ffffff"
+        android:textSize="18sp"/>
+
+    <Spinner
+        android:id="@+id/edit_profile_country_spinner"
+        style="@style/profileTextView"
+        android:layout_width="wrap_content"
+        android:background="@drawable/questionnaire_edit_text_border"
+        android:padding="5dp">
+
+    </Spinner>
+
+    <TextView
+        android:id="@+id/edit_profile_gender"
+        style="@style/profileTextView"
+        android:text="@string/edit_profile_gender_hint"
+        android:textColor="#ffffff"
+        android:textSize="18sp"/>
+
+    <RadioGroup
+        android:id="@+id/edit_profile_pick_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp">
+
+        <RadioButton
+            android:id="@+id/edit_profile_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edit_profile_male"
+            android:textColor="#ffffff"/>
+
+        <RadioButton
+            android:id="@+id/edit_profile_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/edit_profile_female"
+            android:textColor="#ffffff"/>
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/edit_profile_button_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/questionnaire_send_button"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:text="@string/edit_profile_button_confirm"/>
+
+</LinearLayout>

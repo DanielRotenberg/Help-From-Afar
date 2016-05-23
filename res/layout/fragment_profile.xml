@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#3b44c1"
+                android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/profile_title"
+        style="@style/profileTextView"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        tools:text="here goes name"
+        />
+
+    <TextView
+        android:id="@+id/profile_name_title"
+        style="@style/profileTextView"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_title"
+        android:layout_marginTop="16dp"
+        android:text="@string/profile_name"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        tools:text="here goes name"
+        />
+
+    <TextView
+        android:id="@+id/profile_name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_title"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="16dp"
+        android:textColor="#ffffff"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/profile_age_title"
+        style="@style/profileTextView"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_name_title"
+        android:text="@string/profile_age"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        tools:text="here goes name"/>
+
+    <TextView
+        android:id="@+id/profile_age_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_name_title"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="7dp"
+        android:textColor="#ffffff"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/profile_gender_title"
+        style="@style/profileTextView"
+        android:layout_below="@id/profile_age_title"
+        android:text="@string/profile_gender"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        tools:text="here goes name"/>
+
+    <TextView
+        android:id="@+id/profile_gender_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_age_title"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="7dp"
+        android:textColor="#ffffff"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/profile_country_title"
+        style="@style/profileTextView"
+        android:layout_below="@id/profile_gender_title"
+        android:layout_marginBottom="16dp"
+        android:text="@string/profile_country"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        tools:text="here goes name"/>
+
+    <TextView
+        android:id="@+id/profile_country_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_gender_title"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="7dp"
+        android:textColor="#ffffff"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/profile_button_go_to_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_country_title"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/questionnaire_send_button"
+        android:text="@string/profile_edit_button"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/go_to_therapist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_button_go_to_edit"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/questionnaire_send_button"
+        android:textColor="#ffffff"
+        />
+
+
+    <Button
+        android:id="@+id/fragment_status_button_add_questionnaire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/go_to_therapist"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/questionnaire_send_button"
+        android:text="@string/add_questionnaire"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/fragment_status_button_show_questionnaire_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragment_status_button_add_questionnaire"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/questionnaire_send_button"
+        android:text="@string/show_questionnaire_list"
+        android:textColor="#ffffff"/>
+
+
+</RelativeLayout>
