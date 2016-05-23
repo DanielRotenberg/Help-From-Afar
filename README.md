@@ -5,7 +5,7 @@ Mobile app which provides physiological assistance based on a set of questions f
 * for the userM - in order to refer to the same userM in all screens we must create him as singleton, therefor we handle the userM through class
    SingleUser, this class contains User object and also object of ParseMethods.java which responsible on upload/download data to parse.com
 * initializing the user type -> user or therapist only once when they log in -> in LoginFragment.java
-* !!!!very important to explain that we partly disabling the singleton only for demonstration!!!!
+* !!!!very important - we partly disabled the singleton only for demonstration!!!!
 
 user name and password-
 *Patient -carol -  1111,gal -  111,Marcus -  1111
