@@ -2,8 +2,8 @@ package com.danirg10000gmail.HelpFromAfar.dataBase;
 
 public class ParseData {
     public static final class AppData{
-        public  static final String APP_ID = "euxoy8BjmW8FzjRlxW6bRi5mnMg2KMpswnFALuov";
-        public static final String CLIENT_KEY = "dHe1RENo7hp5TiAwenyU0JFd07l975TWAONfan7y";
+        public  static final String APP_ID = "Sorry_Private";
+        public static final String CLIENT_KEY = "Sorry_private";
     }
 
     public static final class AnswersClass {
