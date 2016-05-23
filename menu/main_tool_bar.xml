@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/toolbar_contact_us"
+        android:orderInCategory="100"
+        android:title="@string/toolbar_contact_us"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/toolbar_log_out"
+        android:orderInCategory="101"
+        android:title="@string/toolbar_log_out"
+        app:showAsAction="never"
+        />
+</menu>
