@@ -1,11 +1,7 @@
 # Help-From-Afar
 Mobile app which provides physiological assistance based on a set of questions filled out by patient. Additionally, a registered physiologist will review and provide a professional summary with the option to schedule an appointment.
 
-* class User must not be singleton in order to create list of patients for the therapist and list of therapist for simple user
-* for the userM - in order to refer to the same userM in all screens we must create him as singleton, therefor we handle the userM through class
-   SingleUser, this class contains User object and also object of ParseMethods.java which responsible on upload/download data to parse.com
-* initializing the user type -> user or therapist only once when they log in -> in LoginFragment.java
-* !!!!very important - we partly disabled the singleton only for demonstration!!!!
+
 
 user name and password-
 *Patient -carol -  1111,gal -  111,Marcus -  1111
@@ -47,4 +43,11 @@ Android-
 * using Fragment Arguments -> common approach to prevent tight coupling between Activity and Fragment.
   for more info - http://stackoverflow.com/questions/9245408/best-practice-for-instantiating-a-new-android-fragment
 
+Few important notes -
+
+* class User must not be singleton in order to create list of patients for the therapist and list of therapist for simple user
+* for the userM - in order to refer to the same userM in all screens we must create him as singleton, therefor we handle the userM through class
+   SingleUser, this class contains User object and also object of ParseMethods.java which responsible on upload/download data to parse.com
+* initializing the user type -> user or therapist only once when they log in -> in LoginFragment.java
+* !!!!very important - we partly disabled the singleton only for demonstration!!!!
 
