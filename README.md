@@ -4,7 +4,7 @@ Mobile app which provides physiological assistance based on a set of questions f
 
 
 user name and password-
-*Patient -carol -  1111,gal -  111,Marcus -  1111
+*Patient -carol -  1111,gal -  111,marcus -  1111
 *Therapist -ter 111
 
 
